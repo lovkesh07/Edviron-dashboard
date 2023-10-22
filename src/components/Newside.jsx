@@ -41,7 +41,7 @@ function Newside() {
         style={{ width: "100%", height: "100%", display: "flex" }}
       >
         <motion.div layout className="sidebar px-4 " data-isOn={isToggle}>
-          {/* <motion.div  className = "leftNav" whileTap = {{scale : 0.97}} whileHover = {{scale : 1.02}} style={{margin: "10px 0px"}}><img src={ProfilePic} alt="profile pic" width = "32" height = "32" style={{borderRadius : "50%"}}/>&nbsp;  <span className = "leftNavText" data-isOn={isToggle}>Barry Allen</span></motion.div> */}
+          
           <h1 className = "leftNav" whileTap = {{scale : 0.97}} whileHover = {{scale : 1.02}} style={{margin: "10px 0px"}}>logo</h1>
           <motion.div
             className="leftNav hover:bg-blue-600 rounded-xl"
