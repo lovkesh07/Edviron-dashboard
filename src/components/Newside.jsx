@@ -25,11 +25,6 @@ import Uppergrid from "./Uppergrid";
 import Compup from "./Compup";
 import Test from "./Test";
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import {FormControl} from 'react-bootstrap';
-// import ProfilePic from './images/profile.jfif';
-// import {LineChart,XAxis,YAxis,Tooltip,CartesianGrid,Line } from 'recharts';
-
 function Newside() {
   const [isToggle, setIsToggle] = useState(false);
 
