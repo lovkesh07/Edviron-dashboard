@@ -8,13 +8,13 @@ export default function Compup() {
         <h1 className="float-left">DAV Public School, Bhilai</h1>
       </div> */}
 
-      <div className="my-6 rounded-md ">
+      <div className="my-6 ">
         <div class="flex ">
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0">
             <div class="flex justify-center lg:text-6xl ">
               <BoxWrapper>
                 <div className="rounded-full h-12 w-16 flex items-center justify-center bg-sky-500">
-                  <IoBagHandle className="text-2xl rounded-4xl text-white" />
+                  <IoBagHandle className="text-2xl  text-white" />
                 </div>
                 <div className="pl-4">
                   <span className="text-sm text-gray-500 font-light">
@@ -80,7 +80,7 @@ export default function Compup() {
 
 function BoxWrapper({ children }) {
   return (
-    <div className="bg-white rounded-3xl px-12 py-2 lg:px-16 lg:py-6 flex-1  flex items-center">
+    <div className="bg-white px-12 py-2 lg:px-16 lg:py-6 flex-1  flex items-center">
       {children}
     </div>
   );

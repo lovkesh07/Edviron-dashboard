@@ -1,6 +1,10 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Newside from '@/components/Newside';
+import Exp from '@/components/Exp';
+import Layout from '@/components/shared/Layout';
+
+// import DashboardStatsGrid from '@/components/DashboardStatsGrid';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,7 +17,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Newside/>
+      {/* <Newside/> */}
+      {/* <Exp/> */}
+      <Layout/>
+      {/* <DashboardStatsGrid /> */}
         {children}</body>
     </html>
   )

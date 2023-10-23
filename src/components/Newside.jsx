@@ -33,121 +33,100 @@ function Newside() {
     setIsToggle(!isToggle);
   };
 
-
   return (
     <div className="App">
-      <div
-        className="main"
-        style={{ width: "100%", height: "100%", display: "flex" }}
-      >
-        <motion.div layout className="sidebar px-4 " data-isOn={isToggle}>
+      
+        <div className="flex flex-row h-screen w-screen ">
           
-          <h1 className = "leftNav" whileTap = {{scale : 0.97}} whileHover = {{scale : 1.02}} style={{margin: "10px 0px"}}>logo</h1>
-          <motion.div
-            className="leftNav hover:bg-blue-600 rounded-xl"
-            whileTap={{ scale: 0.97 }}
-            whileHover={{ scale: 1.02 }}
-          >
-            <DashboardIcon style={{ fontSize: 30 }}></DashboardIcon>{" "}
-            <span className="leftNavText " data-isOn={isToggle}>
-              Dashboard
-            </span>
-          </motion.div>
-          <motion.div
-            className="leftNav hover:bg-blue-600 rounded-xl "
-            whileTap={{ scale: 0.97 }}
-            // whileHover={{ scale: 1.02 }}
-          >
-            <FollowersIcon style={{ fontSize: 30 }}></FollowersIcon>{" "}
-            <span className="leftNavText " data-isOn={isToggle}>
-              Followers
-            </span>
-          </motion.div>
-          <motion.div
-            className="leftNav hover:bg-blue-600 rounded-xl"
-            whileTap={{ scale: 0.97 }}
-            // whileHover={{ scale: 1.02 }}
-          >
-            <MessagesIcon style={{ fontSize: 30 }}></MessagesIcon>{" "}
-            <span className="leftNavText" data-isOn={isToggle}>
-              Messages
-            </span>
-          </motion.div>
-          <motion.div
-            className="leftNav hover:bg-blue-600 rounded-xl"
-            whileTap={{ scale: 0.97 }}
-            // whileHover={{ scale: 1.02 }}
-          >
-            <NotificationsIcon style={{ fontSize: 30 }}></NotificationsIcon>{" "}
-            <span className="leftNavText" data-isOn={isToggle}>
-              Notifications
-            </span>
-          </motion.div>
-          <motion.div
-            className="leftNav hover:bg-blue-600 rounded-xl"
-            whileTap={{ scale: 0.97 }}
-            // whileHover={{ scale: 1.02 }}
-          >
-            <SettingsIcon style={{ fontSize: 30 }}></SettingsIcon>{" "}
-            <span className="leftNavText" data-isOn={isToggle}>
-              Settings
-            </span>
-          </motion.div>
-          <motion.div
-            className="leftNav hover:bg-blue-600 rounded-xl"
-            whileTap={{ scale: 0.97 }}
-            // whileHover={{ scale: 1.02 }}
-          >
-            <InfoIcon style={{ fontSize: 30 }}></InfoIcon>{" "}
-            <span className="leftNavText" data-isOn={isToggle}>
-              About
-            </span>
-          </motion.div>
-        </motion.div>
-        <motion.div
-          layout
-          style={{ display: "flex", flexDirection: "column" }}
-          className="rightBack"
-          data-isOn={isToggle}
-        >
-          <motion.div
-            className="rightNav"
-            layout
-            style={{
-              height: "47px",
-              backgroundColor: "white",
-              boxShadow: "2px 0px 10px lightgray",
-              padding: "5px",
-              display: "flex",
-            }}
-            data-isOn={isToggle}
-          >
-            <motion.div whileTap={{ scale: 1.1 }} whileHover={{ scale: 1.2 }}>
+            <div
+              layout
+              className="sidebar  px-4 "
+              data-isOn={isToggle}
+            >
+              <h1
+                className="leftNav"
+                whileTap={{ scale: 0.97 }}
+                whileHover={{ scale: 1.02 }}
+                style={{ margin: "10px 0px" }}
+              >
+                logo
+              </h1>
+
               <AppsIcon
-                style={{ fontSize: 35, marginTop: "1px", cursor: "pointer" }}
-                onClick={toggleSwitch}
-              ></AppsIcon>
-            </motion.div>
-            {/* <FormControl type = "text" placeholder = "Enter anything to search" style={{width: "300px", marginLeft : "10px"}}/> */}
-          </motion.div>
+                    style={{
+                      fontSize: 35,
+                      marginTop: "1px",
+                      cursor: "pointer",
+                    }}
+                    onClick={toggleSwitch}
+                  ></AppsIcon>
 
 
-
-          <div className="px-4">
-            <div className="lg:text-3xl font-bold ">
-              <h1 className="float-left">DAV Public School, Bhilai</h1>
+              <motion.div
+                className="leftNav hover:bg-blue-600 rounded-xl"
+                whileTap={{ scale: 0.97 }}
+                whileHover={{ scale: 1.02 }}
+              >
+                <DashboardIcon style={{ fontSize: 30 }}></DashboardIcon>{" "}
+                <span className="leftNavText " data-isOn={isToggle}>
+                  Dashboard
+                </span>
+              </motion.div>
+              <motion.div
+                className="leftNav hover:bg-blue-600 rounded-xl "
+                whileTap={{ scale: 0.97 }}
+                // whileHover={{ scale: 1.02 }}
+              >
+                <FollowersIcon style={{ fontSize: 30 }}></FollowersIcon>{" "}
+                <span className="leftNavText " data-isOn={isToggle}>
+                  Followers
+                </span>
+              </motion.div>
+              <motion.div
+                className="leftNav hover:bg-blue-600 rounded-xl"
+                whileTap={{ scale: 0.97 }}
+                // whileHover={{ scale: 1.02 }}
+              >
+                <MessagesIcon style={{ fontSize: 30 }}></MessagesIcon>{" "}
+                <span className="leftNavText" data-isOn={isToggle}>
+                  Messages
+                </span>
+              </motion.div>
+              <motion.div
+                className="leftNav hover:bg-blue-600 rounded-xl"
+                whileTap={{ scale: 0.97 }}
+                // whileHover={{ scale: 1.02 }}
+              >
+                <NotificationsIcon style={{ fontSize: 30 }}></NotificationsIcon>{" "}
+                <span className="leftNavText" data-isOn={isToggle}>
+                  Notifications
+                </span>
+              </motion.div>
+              <motion.div
+                className="leftNav hover:bg-blue-600 rounded-xl"
+                whileTap={{ scale: 0.97 }}
+                // whileHover={{ scale: 1.02 }}
+              >
+                <SettingsIcon style={{ fontSize: 30 }}></SettingsIcon>{" "}
+                <span className="leftNavText" data-isOn={isToggle}>
+                  Settings
+                </span>
+              </motion.div>
+              <motion.div
+                className="leftNav hover:bg-blue-600 rounded-xl"
+                whileTap={{ scale: 0.97 }}
+                // whileHover={{ scale: 1.02 }}
+              >
+                <InfoIcon style={{ fontSize: 30 }}></InfoIcon>{" "}
+                <span className="leftNavText" data-isOn={isToggle}>
+                  About
+                </span>
+              </motion.div>
             </div>
-          </div>
 
-          <div className="px-4">
-            <Compup />
-            <Uppergrid />
-            <Test />
-          </div>
+        </div>
+      
 
-
-        </motion.div>
-      </div>
     </div>
   );
 }

@@ -37,7 +37,7 @@ export default function Uppergrid() {
 			<div class="flex justify-center text-6xl ">
 			<BoxWrapper>
 				
-				<div className="pl-4">
+				<div className="">
 					<span className="text-sm text-gray-500 font-light">collection this month</span>
 					<div className="flex items-center">
 						<strong className="text-xl text-gray-700 font-semibold">90.56L</strong>
@@ -47,10 +47,11 @@ export default function Uppergrid() {
 			</BoxWrapper>
 
 			</div>
+
 			<div class="flex justify-center text-6xl ">
 			<BoxWrapper>
 				
-				<div className="pl-4">
+				<div className="">
 					<span className="text-sm text-gray-500 font-light">Fine Collected till date</span>
 					<div className="flex items-center">
 						<strong className="text-xl text-gray-700 font-semibold">11.20L</strong>
@@ -66,5 +67,5 @@ export default function Uppergrid() {
 }
 
 function BoxWrapper({ children }) {
-	return <div className="bg-white rounded-3xl px-16 py-6 flex-1 border border-gray-200 flex items-center">{children}</div>
+	return <div className="bg-white rounded-3xl px-16 flex-1 border border-gray-200 flex items-center">{children}</div>
 }
