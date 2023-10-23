@@ -1,7 +1,6 @@
 "use client"
-import React ,{ useState } from 'react'
+import React from 'react'
 import classNames from 'classnames'
-import AppsIcon from "@material-ui/icons/Apps";
 import { HiOutlineLogout } from 'react-icons/hi'
 
 
