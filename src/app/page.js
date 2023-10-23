@@ -1,7 +1,4 @@
 "use client";
-import Uppergrid from "@/components/Uppergrid";
-import Compup from "@/components/Compup";
-import Test from "@/components/Test";
 
 export default function Home() {
   return (

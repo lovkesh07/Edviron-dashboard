@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import Sidebar from './Sidebar'
-
 import Uppergrid from "../Uppergrid";
 import Compup from "../Compup";
 import Test from "../Test";
@@ -29,7 +28,6 @@ export default function Layout() {
                 <Compup />
                 <Uppergrid />
                 <Test />
-                {/* <Test /> */}
 				<Recent/>
 
               </div>

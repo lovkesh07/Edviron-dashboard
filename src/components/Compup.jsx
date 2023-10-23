@@ -1,12 +1,9 @@
 import React from "react";
-import { IoBagHandle, IoPieChart, IoPeople, IoCart } from "react-icons/io5";
+import { IoBagHandle, IoPieChart, IoPeople } from "react-icons/io5";
 
 export default function Compup() {
   return (
     <>
-      {/* <div className="lg:text-3xl font-bold ">
-        <h1 className="float-left">DAV Public School, Bhilai</h1>
-      </div> */}
 
       <div className="my-6 ">
         <div class="flex ">

@@ -10,8 +10,6 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
-    "@material-ui/icons": "^4.11.3",
-    "@mui/icons-material": "^5.14.14",
     "autoprefixer": "10.4.15",
     "date-fns": "^2.30.0",
     "eslint": "8.48.0",

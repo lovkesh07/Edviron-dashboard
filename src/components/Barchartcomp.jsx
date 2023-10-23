@@ -86,13 +86,12 @@ export default function Barchartcomp() {
 							bottom: 0
 						}}
 					>
-						{/* <CartesianGrid   /> */}
+						
 						<XAxis dataKey="name" />
-						{/* <YAxis /> */}
+					
 						<Tooltip />
-						{/* <Legend /> */}
-						{/* <Bar dataKey="Income" fill="#0ea5e9" /> */}
-						<Bar dataKey="Expense" fill="#ea580c" />
+						
+						<Bar dataKey="Expense" fill="rgb(248, 234, 255)" />
 					</BarChart>
 				</ResponsiveContainer>
 			</div>
